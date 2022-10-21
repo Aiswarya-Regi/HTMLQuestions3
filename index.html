@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center"><ins>HTML INTERVIEW QNA DAY3</ins></h1>
+    <h3>1.Write a code to insert an image.</h3>
+    <p style="color:rgb(3, 113, 3)">&nbsp;&nbsp;&nbsp;&nbsp;-->&lt;img src=”address of the link” /&gt;</p>
+    <h3>Image</h3>
+    <img src="problem-page-seo.png" width="250" height="150"/>
+    <br>
+    <h3>2.Write a HTML code to create 2*2 : Table column should be name and salary, provide two entries for this.</h3>
+    <p style="color:rgb(3, 113, 3)"><b>Code:-</b></p>
+    <pre style="color:rgb(3, 113, 3)">
+    &lt;table border="1"&gt;
+        &lt;tr&gt;
+        &lt;td&gt;Name:-&lt;/td&gt;
+        &lt;td&gt;John&lt;/td&gt;
+        &lt;td&gt;David&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td&gt;Salary:-&lt;/td&gt;
+        &lt;td&gt;30K&lt;/td&gt;
+        &lt;td&gt;40K&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;/table&gt;
+    </pre> 
+    <p style="color:rgb(3, 113, 3)"><b>Output:-</b></p>
+    <table border="1" cellpadding="8"cellspacing="0">
+        <tr>
+        <td><b>Name:-</b></td>
+        <td>John</td>
+        <td>David</td>
+        </tr>
+        <tr>
+        <td><b>Salary:-</b></td>
+        <td>30K</td>
+        <td>40K</td>
+        </tr>
+        </table>
+
+        <br>
+        <h3>3.Create a form that contain input fields like name, age, email and contact.</h3>
+        <p style="color:rgb(3, 113, 3)"><b>Code:-</b></p>
+        <pre style="color:rgb(3, 113, 3)">
+            &lt;form action=""&gt;
+
+                &lt;label for="name"&gt;Name:&lt;/label&gt;
+                &lt;input type="text" name="name" id="name"&gt;&lt;br&gt;&lt;br&gt;
+                
+                &lt;label for="email"&gt;Email:&lt;/label&gt;
+                &lt;input type="email" name="email" id="mail"&gt;&lt;br&gt;&lt;br&gt;
+                
+                &lt;label for="age"&gt;Age: &lt;/label&gt;
+                &lt;input type="number" name="age" id="age"&gt;&lt;br&gt;&lt;br&gt;
+                
+                &lt;label for="contact"&gt;Contact:&lt;/label&gt;
+                &lt;input type="number" name="contact" id="contact"&gt;&lt;br&gt;&lt;br&gt;
+                
+                &lt;/form&gt;
+        </pre> 
+        
+        <p style="color:rgb(3, 113, 3)"><b>Output:-</b></p>
+        <form action="">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name"><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="mail"><br><br>
+            
+            <label for="age">Age: </label>
+            <input type="number" name="age" id="age"><br><br>
+            
+            <label for="contact">Contact:</label>
+            <input type="number" name="contact" id="contact"><br><br>
+            
+        </form>
+        <br>
+        <h3>4. Create a table and explain how to achieve colspan?</h3>
+        <p style="color:rgb(3, 113, 3)"><b>Code:-</b></p>
+        <pre style="color:rgb(3, 113, 3)">
+            &lt;table border="1"&gt;
+            &lt;tr&gt;
+            &lt;th&gt;Name&lt;/th&gt;
+            &lt;th colspan="2"&gt;Designation&lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+            &lt;td&gt;Rohan&lt;/td&gt;
+            &lt;td&gt;Front-end Dev&lt;/td&gt;
+            &lt;td&gt;Backend Dev&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+            &lt;td&gt;Vihan&lt;/td&gt;
+            &lt;td&gt;Front-end Dev&lt;/td&gt;
+            &lt;td&gt;Backend Dev&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;/table&gt;
+        
+        </pre>
+        <p style="color:rgb(3, 113, 3)"><b>Output:-</b></p>
+        <table border="1">
+            <tr>
+            <th>Name</th>
+            <th colspan="2">Designation</th>
+            </tr>
+            <tr>
+            <td>Rohan</td>
+            <td>Front-end Dev</td>
+            <td>Backend Dev</td>
+            </tr>
+            <tr>
+            <td>Vihan</td>
+            <td>Front-end Dev</td>
+            <td>Backend Dev</td>
+            </tr>
+            </table>
+            <br>
+            <h3>5. Create radio button (MERN, MEAN: course) and checkbox(HTML, CSS, React, Node: technology) and explain the difference between these two?</h3>
+            <p style="color:rgb(3, 113, 3)"><b>Code:-</b></p>
+            <pre style="color:rgb(3, 113, 3)">
+                &lt;h2&gt;Radio Button &lt;/h2&gt;
+                &lt;input type="radio" value="MERN" name="course" id="course"&gt;
+                &lt;label for="course"&gt;MERN &lt;/label&gt;
+                &lt;input type="radio" value="MEAN" name="course" id="course"&gt;
+                &lt;label for="course"&gt;MEAN &lt;/label&gt;
+                &lt;br&gt;
+                &lt;h2>Checkbox &lt;/h2&gt;
+                
+                
+                &lt;input type="checkbox" value="HTML" name="technology-1" id="technology1"&gt;
+                &lt;label for="technology"&gt;HTML &lt;/label&gt;
+                
+                &lt;input type="checkbox" value="CSS" name="technology-2" id="technology2"&gt;
+                &lt;label for="technology"&gt;CSS &lt;/label&gt;
+                
+                &lt;input type="checkbox" value="React" name="technology-3" id="technology3"&gt;
+                &lt;label for="technology"&gt;React &lt;/label&gt;
+                
+                &lt;input type="checkbox" value="Node" name="technology-4" id="technology4"&gt;
+                &lt;label for="technology"&gt;Node &lt;/label&gt; &lt;br&gt; &lt;br&gt;
+            
+            
+        </pre>
+
+        <p style="color:rgb(3, 113, 3)"><b>Output:-</b></p>
+        <h2>Radio Button</h2>
+<input type="radio" value="MERN" name="course" id="course">
+<label for="course">MERN</label>
+<input type="radio" value="MEAN" name="course" id="course">
+<label for="course">MEAN</label>
+<br>
+<h2>Checkbox</h2>
+
+
+<input type="checkbox" value="HTML" name="technology-1" id="technology1">
+<label for="technology">HTML</label>
+
+<input type="checkbox" value="CSS" name="technology-2" id="technology2">
+<label for="technology">CSS</label>
+
+<input type="checkbox" value="React" name="technology-3" id="technology3">
+<label for="technology">React</label>
+
+<input type="checkbox" value="Node" name="technology-4" id="technology4">
+<label for="technology">Node</label><br><br>
+
+</body>
+</html>
